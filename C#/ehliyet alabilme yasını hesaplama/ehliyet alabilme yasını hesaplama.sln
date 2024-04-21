@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ehliyet alabilme yasını hesaplama", "ehliyet alabilme yasını hesaplama\ehliyet alabilme yasını hesaplama.csproj", "{2E64D26A-049E-44B6-987B-BA2FD01CFD7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E64D26A-049E-44B6-987B-BA2FD01CFD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E64D26A-049E-44B6-987B-BA2FD01CFD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E64D26A-049E-44B6-987B-BA2FD01CFD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E64D26A-049E-44B6-987B-BA2FD01CFD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6075CFEF-4AC0-4847-9A18-1B3BBEC1DC96}
+	EndGlobalSection
+EndGlobal
