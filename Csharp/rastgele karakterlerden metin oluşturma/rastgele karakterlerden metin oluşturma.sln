@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rastgele karakterlerden metin oluşturma", "rastgele karakterlerden metin oluşturma\rastgele karakterlerden metin oluşturma.csproj", "{D6FBA0BD-9047-468A-A18F-5DAEE4FBC598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6FBA0BD-9047-468A-A18F-5DAEE4FBC598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FBA0BD-9047-468A-A18F-5DAEE4FBC598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FBA0BD-9047-468A-A18F-5DAEE4FBC598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FBA0BD-9047-468A-A18F-5DAEE4FBC598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {445401D2-5934-410F-A468-CF022F4324E9}
+	EndGlobalSection
+EndGlobal
