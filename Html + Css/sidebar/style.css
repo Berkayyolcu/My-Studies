@@ -19,14 +19,10 @@
     color: white;
 }
 
-
 .men a:hover {
     background-color: #e74c3c;
     color: white;
 }
-
-
-
 
 /* Sidebar Bölümü */
 
@@ -34,7 +30,6 @@
 width:100%;
 height:100px;
 background-color: #DC3535;
-
 }
 
 .w3-button {
@@ -60,7 +55,6 @@ display:block;
 position:absolute;
 border:none;
 cursor: pointer;
-
 }
 
 .w3-sidebar{
