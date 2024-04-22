@@ -1,0 +1,64 @@
+
+.fab {
+    padding: 7px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+}
+.fa-facebook-f {
+    background:black;
+    color: white;
+}
+.fa-youtube {
+    background: black;
+    color: white;
+}
+.fa-instagram {
+    background: black;
+    color: white;
+}
+.fa-linkedin {
+    background: black;
+    color: white;
+}
+.fa-twitter {
+    background: black;
+    color: white;
+}
+.fa-google {
+    background:black;
+    color: white;
+}
+.fa-facebook-f:hover {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram:hover {
+    background: #833AB4;
+    color: white;
+}
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: white;
+}
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google:hover {
+    background: #dd4b39;
+    color: white;
+}
+ 
+
+
+
+
+
+ 
