@@ -1,0 +1,31 @@
+
+.counter
+{
+	width:200px;
+	height:160px;
+	max-width:100%;
+	border-style:solid;
+	border-width:2px;
+	border-color:#FFA500;
+	margin:100px auto 50px auto;
+}
+
+.counter p
+{	
+    text-align: center;
+    font-weight:bold;
+    margin:48px auto 0px auto;
+	display:block;	
+}
+
+.counter input
+{
+     margin:0px 30px 0px 30px;
+     display:inline-block;
+	 font-weight:bold;
+}
+
+
+
+
+
