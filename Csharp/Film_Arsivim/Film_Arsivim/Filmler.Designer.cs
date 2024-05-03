@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtid = new System.Windows.Forms.TextBox();
             this.btnmenü = new System.Windows.Forms.Button();
             this.btnsil = new System.Windows.Forms.Button();
             this.btngüncelle = new System.Windows.Forms.Button();
@@ -40,8 +42,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtfilmad = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtid = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -66,6 +66,23 @@
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Yeni Film";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(361, 63);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 25);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Film No :";
+            // 
+            // txtid
+            // 
+            this.txtid.Location = new System.Drawing.Point(470, 60);
+            this.txtid.Name = "txtid";
+            this.txtid.ReadOnly = true;
+            this.txtid.Size = new System.Drawing.Size(204, 30);
+            this.txtid.TabIndex = 10;
             // 
             // btnmenü
             // 
@@ -157,6 +174,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 365);
             this.dataGridView1.Name = "dataGridView1";
@@ -166,24 +184,7 @@
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // txtid
-            // 
-            this.txtid.Location = new System.Drawing.Point(470, 60);
-            this.txtid.Name = "txtid";
-            this.txtid.ReadOnly = true;
-            this.txtid.Size = new System.Drawing.Size(204, 30);
-            this.txtid.TabIndex = 10;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(361, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 31);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Film No :";
-            // 
-            // Film_Ekleme
+            // Filmler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -193,7 +194,7 @@
             this.Controls.Add(this.groupBox3);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Film_Ekleme";
+            this.Name = "Filmler";
             this.Text = "Film Ekleme Sayfası";
             this.Load += new System.EventHandler(this.Film_Ekleme_Load);
             this.groupBox3.ResumeLayout(false);

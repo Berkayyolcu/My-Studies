@@ -67,8 +67,8 @@ namespace Film_Arsivim
         private void btnsil_Click(object sender, EventArgs e)
         {
             conn.Open();
-            SqlCommand komut = new SqlCommand("Delete From TBLFILMLER where AD=@p1", conn);
-            komut.Parameters.AddWithValue("@p1", txtfilmad.Text);
+            SqlCommand komut = new SqlCommand("Delete From TBLFILMLER where ID=@p1", conn);
+            komut.Parameters.AddWithValue("@p1", txtid.Text);
             komut.ExecuteNonQuery();
             conn.Close();
             MessageBox.Show("Film Listenizden Silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
