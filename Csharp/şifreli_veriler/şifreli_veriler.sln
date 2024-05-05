@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "veriyi_şifreleme", "şifreli_veriler\veriyi_şifreleme.csproj", "{3AC65854-6384-4E5F-B8A8-B0E21A2B2EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC65854-6384-4E5F-B8A8-B0E21A2B2EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC65854-6384-4E5F-B8A8-B0E21A2B2EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC65854-6384-4E5F-B8A8-B0E21A2B2EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC65854-6384-4E5F-B8A8-B0E21A2B2EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FB303F5-B4B3-4773-877B-6936A8AFA2FF}
+	EndGlobalSection
+EndGlobal
